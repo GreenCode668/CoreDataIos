@@ -1,2 +1,2 @@
 # Core Data IOS
-### Offline Adding User Info In Core Data and getting user info
+### Offline adding user info in Core Data and getting user info
