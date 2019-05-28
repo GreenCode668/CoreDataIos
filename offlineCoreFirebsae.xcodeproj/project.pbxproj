@@ -15,6 +15,9 @@
 		7FF3CEA8229D0E5B004652E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF3CEA6229D0E5B004652E0 /* LaunchScreen.storyboard */; };
 		7FF3CEB3229D0E5B004652E0 /* offlineCoreFirebsaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3CEB2229D0E5B004652E0 /* offlineCoreFirebsaeTests.swift */; };
 		7FF3CEBE229D0E5B004652E0 /* offlineCoreFirebsaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3CEBD229D0E5B004652E0 /* offlineCoreFirebsaeUITests.swift */; };
+		7FF3CECC229D14A1004652E0 /* OfflineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3CECB229D14A1004652E0 /* OfflineService.swift */; };
+		7FF3CECF229D197B004652E0 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3CECD229D197B004652E0 /* Person+CoreDataClass.swift */; };
+		7FF3CED0229D197B004652E0 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3CECE229D197B004652E0 /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7FF3CEB9229D0E5B004652E0 /* offlineCoreFirebsaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = offlineCoreFirebsaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF3CEBD229D0E5B004652E0 /* offlineCoreFirebsaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offlineCoreFirebsaeUITests.swift; sourceTree = "<group>"; };
 		7FF3CEBF229D0E5B004652E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF3CECB229D14A1004652E0 /* OfflineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineService.swift; sourceTree = "<group>"; };
+		7FF3CECD229D197B004652E0 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7FF3CECE229D197B004652E0 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		7FF3CE99229D0E4A004652E0 /* offlineCoreFirebsae */ = {
 			isa = PBXGroup;
 			children = (
+				7FF3CECD229D197B004652E0 /* Person+CoreDataClass.swift */,
+				7FF3CECE229D197B004652E0 /* Person+CoreDataProperties.swift */,
 				7FF3CE9A229D0E4A004652E0 /* AppDelegate.swift */,
 				7FF3CE9C229D0E4A004652E0 /* ViewController.swift */,
 				7FF3CE9E229D0E4A004652E0 /* Main.storyboard */,
@@ -106,6 +114,7 @@
 				7FF3CEA6229D0E5B004652E0 /* LaunchScreen.storyboard */,
 				7FF3CEA9229D0E5B004652E0 /* Info.plist */,
 				7FF3CEA1229D0E4A004652E0 /* offlineCoreFirebsae.xcdatamodeld */,
+				7FF3CECB229D14A1004652E0 /* OfflineService.swift */,
 			);
 			path = offlineCoreFirebsae;
 			sourceTree = "<group>";
@@ -261,7 +270,10 @@
 			files = (
 				7FF3CE9D229D0E4A004652E0 /* ViewController.swift in Sources */,
 				7FF3CE9B229D0E4A004652E0 /* AppDelegate.swift in Sources */,
+				7FF3CED0229D197B004652E0 /* Person+CoreDataProperties.swift in Sources */,
+				7FF3CECF229D197B004652E0 /* Person+CoreDataClass.swift in Sources */,
 				7FF3CEA3229D0E4A004652E0 /* offlineCoreFirebsae.xcdatamodeld in Sources */,
+				7FF3CECC229D14A1004652E0 /* OfflineService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
